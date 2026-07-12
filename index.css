@@ -118,6 +118,8 @@ section{
     flex-direction: column;
     text-align: center;
     background-color: #FFF8F3;
+    border-radius: 7px;
+
 }
 .title{
     font-size: 35px;
@@ -164,4 +166,40 @@ section{
     padding-top: 50px;
     padding-left: 450px;
     padding-right: 450px;
+}
+/* Skill design */
+.contain-skill{
+    height: 350x;
+    width: 250px;
+    border: 0.5px solid #F7F7F7;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.skill-logo{
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #181818;
+}
+.skill-txt{
+    font-size: 16px;
+    line-height: 2.2;
+    padding-top: 25px;
+    color: #757575;
+}
+.all-skills{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 25px;
+    background-color: #F7F7F7;
+    border-radius: 7px;
 }
