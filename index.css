@@ -107,3 +107,61 @@ section{
     display: flex;
     gap: 25px;
 }
+/* info design */
+.info-color{
+    height: 550px;
+    width: 1524px;
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-top: 90px;
+}
+.info-txt{
+    color: #757575;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+.all-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 220px;
+    padding-right: 220px;
+    align-items: center;
+    gap: 50px;
+}
+.all-info span{
+    font-size: 20px;
+    color: #757575;
+}
+.all-info h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+/* I do */
+.i-do{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#addition{
+    line-height: 2;
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
